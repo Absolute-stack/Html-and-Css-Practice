@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+body {
+  background-color: hsl(330, 100%, 98%);
+  text-align: center;
+  padding-bottom: 1000px;
+}
+
+footer {
+  margin-top: 45px;
+}
+
+.content {
+  max-width: 700px;
+  display: grid;
+  padding: 25px;
+  background-color: hsl(0, 0%, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  border: none;
+  border-radius: 20px;
+}
+
+.omolette-picture-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.omolette-picture {
+  width: 100%;
+  margin: 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.header {
+  font-family: "Young serif", serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+
+.header-discription {
+  text-align: center;
+  color: hsl(30, 10%, 34%);
+}
+
+.preparation-block {
+  margin: 10px;
+  padding: 38px;
+  border: none;
+  border-radius: 25px;
+  background-color: hsl(330, 100%, 98%);
+}
+
+.preparation-header {
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+.preparation-content {
+  text-align: left;
+  margin-bottom: 3px;
+  color: hsl(30, 10%, 34%);
+}
+
+.preparation-text,
+.instructions-text {
+  font-weight: 700;
+}
+
+.ingredients-block,
+.instructions-block {
+  border-bottom: 2px solid lightgrey;
+  padding-left: 38px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+}
+
+.Ingredients-header,
+.instructions-header,
+.nutrition-header {
+  font-family: "Young serif", serif;
+  font-size: 20px;
+  color: hsl(14, 45%, 36%);
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.p-ingredients,
+.p-instructions,
+.p-nutrition {
+  text-align: left;
+  margin-bottom: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+.numbers {
+  color: hsl(14, 45%, 36%);
+  margin-right: 15px;
+}
+
+.Nutrition-block {
+  padding-left: 38px;
+  margin-top: 15px;
+}
+
+.nutrition-description {
+  color: hsl(30, 10%, 34%);
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.p-nutrition {
+  border-bottom: 2px solid lightgrey;
+  line-height: 0%;
+  padding: 15px;
+}
+
+.p-nutrition-fat {
+  text-align: left;
+  padding: 15px;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition-value {
+  margin-left: 95%;
+  color: hsl(14, 45%, 36%);
+  text-align: center;
+}
+
+.nutrition-value-fat {
+  color: hsl(14, 45%, 36%);
+  margin-left: 522.9px;
+}
+
+.bullet {
+  font-size: 20px;
+  margin-right: 20px;
+  color: hsl(14, 45%, 36%);
+}
+
+@media (max-width: 375px) {
+  .content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 25px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .omolette-picture-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
