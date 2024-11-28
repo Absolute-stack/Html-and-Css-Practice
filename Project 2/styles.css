@@ -67,3 +67,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.footer {
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+}
