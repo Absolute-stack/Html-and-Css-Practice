@@ -36,10 +36,11 @@ div {
 .results {
   border: 3px solid red;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  height: 55vh;
+  height: 62vh;
   width: 40vh;
   border: none;
   border-radius: 30px;
+  z-index: 100;
 }
 
 .result-circle {
@@ -83,12 +84,14 @@ div {
 
 .summary {
   background-color: white;
-  height: 55vh;
-  width: 40vh;
+  height: 61vh;
+  width: 45vh;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   box-shadow: 1px 3px 5px;
+  margin-left: -24px;
 }
 
 .summary-text {
@@ -151,6 +154,7 @@ div {
 .continue-button {
   background-color: hsl(224, 30%, 27%);
   color: white;
+  margin-top: 15px;
   padding: 15px 75px;
   border: none;
   border-radius: 25px;
@@ -162,4 +166,7 @@ footer {
   text-align: center;
   position: fixed;
   bottom: 10px;
+}
+
+.icons {
 }
