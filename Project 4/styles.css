@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  background-color: white;
+}
+div {
+  padding-top: 15px;
+}
+.container {
+  border: 5px solid black;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.results,
+.summary {
+  text-align: center;
+  vertical-align: center;
+}
+
+.results {
+  border: 3px solid red;
+  background-color: hsl(252, 100%, 67%);
+  height: 55vh;
+  width: 40vh;
+  border: none;
+  border-radius: 30px;
+}
+
+.result-circle {
+  background-color: hsla(256, 72%, 46%, 1);
+  width: 120px;
+  height: 120px;
+  margin: 15px auto;
+  border: none;
+  border-radius: 60px;
+}
+
+.summary {
+  border: 2px solid blue;
+  background-color: white;
+  height: 55vh;
+  width: 40vh;
+  border-radius: 30px;
+}
